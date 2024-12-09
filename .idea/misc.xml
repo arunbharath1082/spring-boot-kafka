@@ -5,7 +5,18 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/Basics_Kafka/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-kafka-wikipedia/pom.xml" />
+        <option value="$PROJECT_DIR$/Kafka-wikipedia/pom.xml" />
+        <option value="$PROJECT_DIR$/Kafka-wikipedia/wikipedia/pom.xml" />
+        <option value="$PROJECT_DIR$/Kafka-wikipedia/kafka-stream/pom.xml" />
+        <option value="$PROJECT_DIR$/Kafka-wikipedia/Kafka-Consumer/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/Kafka-wikipedia/wikipedia/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-kafka-wikipedia/pom.xml" />
+      </set>
     </option>
     <option name="workspaceImportForciblyTurnedOn" value="true" />
   </component>

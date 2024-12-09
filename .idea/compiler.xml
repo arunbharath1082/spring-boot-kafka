@@ -1,18 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <directory url="file://$PROJECT_DIR$/spring-kafka-wikipedia/wikipedia/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/Kafka-wikipedia/Kafka-Consumer/src/main/resources/archetype-resources" includeSubdirectories="true" />
+    </excludeFromCompile>
     <annotationProcessing>
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="demo-for-Spring-boot-Kafka" />
+        <module name="Kafka-Consumer" />
+        <module name="kafka-stream" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-kafka-wikipedia" target="17" />
+      <module name="wikipedia" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Kafka-Consumer" options="" />
+      <module name="Kafka-wikipedia" options="" />
       <module name="demo-for-Spring-boot-Kafka" options="-parameters" />
+      <module name="kafka-stream" options="" />
+      <module name="spring-kafka-wikipedia" options="-parameters" />
+      <module name="wikipedia" options="-parameters" />
     </option>
   </component>
 </project>
